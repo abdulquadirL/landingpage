@@ -1,28 +1,32 @@
 import React from 'react'
-import { useEffect, useState } from "react";
+import { useState } from "react";
 import styles from '@/styles/page.module.css'
 import { Button } from './Button';
+import Link from 'next/link';
 
 const Navbar = () => {
 
-  
+  const [ show, setShow ] = useState(false)
+  const handleToggle = () => {
+    setShow(!show);
+  }  
   return (
-    <div className={styles.navStyle}>
-     <ul>
-      <a href='#'><li>DOCS</li></a>
-      <a href='#'><li>Enterprise</li></a>
-      <a href='#'><li>Developers</li></a>
-      <a href='#'><li>Roadmap</li></a>
-      <a href='#'><li>Pricing</li></a>
-      <a href='#'><li>Company</li></a>
-      <a href='#'><li>Login</li></a>
+    <div className={styles.navStyle} onClick={handleToggle}>
+      <Link href='#'>DOCS</Link>
+      <Link href='#'>Enterprise</Link>
+      <Link href='#'>Developers</Link>
+      <Link href='#'>Roadmap</Link>
+      <Link href='#'>Pricing</Link>
+      <Link href='#'>Company</Link>
+      <Link href='#'>Login</Link>
       <Button/>
-     </ul>
+      
     </div>
       )
 }
 
 export default Navbar
 
+//const later = {show ? <favicon />  : <HamburgerIcon />}
   
   
