@@ -1,26 +1,42 @@
 import React from 'react'
-import { useState } from "react";
+//import { useState } from "react";
 import styles from '@/styles/page.module.css'
 import { Button } from './Button';
 import Link from 'next/link';
 
 const Navbar = () => {
-
-  const [ show, setShow ] = useState(false)
-  const handleToggle = () => {
-    setShow(!show);
-  }  
+ 
   return (
-    <div className={styles.navStyle} onClick={handleToggle}>
-      <Link href='#'>DOCS</Link>
-      <Link href='#'>Enterprise</Link>
-      <Link href='#'>Developers</Link>
-      <Link href='#'>Roadmap</Link>
-      <Link href='#'>Pricing</Link>
-      <Link href='#'>Company</Link>
-      <Link href='#'>Login</Link>
+    <div className={styles.navStyle} >
+      <ul>
+      <li >
+          <Link href='/'>Home</Link>
+      </li>
+      <li>
+        <Link href='/docs'>DOCS</Link>
+      </li>
+      <li>
+        <Link href='/enterprise'>Enterprise</Link>
+      </li>
+      <li>
+        <Link href='/developers'>Developers</Link>
+      </li>
+      <li>
+        <Link href='/roadmap'>Roadmap</Link>
+      </li>
+      <li>
+        <Link href='/pricing'>Pricing</Link>
+      </li>
+      <li>
+        <Link href='/company'>Company</Link>
+      </li>
+      <li>
+        <Link href='/login'>Login</Link>
+      </li>
       <Button/>
+      </ul>
       
+     
     </div>
       )
 }

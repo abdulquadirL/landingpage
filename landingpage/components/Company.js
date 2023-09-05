@@ -6,12 +6,12 @@ const Company = () => {
     <div className={styles.company}>
         <h2 >Empowering Developers from leading companies</h2>
         <div className={styles.grid}>
-            <div><img src='https://' alt='Hublot'/></div>
-            <div><img src='https://' alt='Puma'/></div>
-            <div><img src='https://' alt='Yahoo'/></div>
-            <div><img src='https://' alt='Huawei'/></div>
-            <div><img src='https://' alt='Barclays'/></div>
-            <div><img src='https://' alt='Nike'/></div>
+            <div><img src='https://amplication.com/_next/static/media/logo-2.a9ec4556.svg' alt='inl'/></div>
+            <div><img src='https://amplication.com/_next/static/media/logo-1.4ab30fc7.svg' alt='Yahoo'/></div>
+            <div><img src='https://amplication.com/_next/static/media/logo-3.5437261c.svg' alt='Huawei'/></div>
+            <div><img src='https://amplication.com/_next/static/media/logo-4.52ae660a.svg' alt='Barclays'/></div>
+            <div><img src='https://amplication.com/_next/static/media/logo-5.aeb7e633.svg' alt='Nike'/></div>
+            <div><img src="https://amplication.com/_next/static/media/logo-6.bd5a0967.svg" alt=''/></div>
         </div>
     </div>
   )
