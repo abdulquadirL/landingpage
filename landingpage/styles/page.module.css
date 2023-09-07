@@ -1,6 +1,6 @@
 .home {
-    background-color: #15192c;
-    width: 100%;
+    
+    width: 100vw;
     min-height: auto;
     margin: 0;
     top: 0;
@@ -11,7 +11,7 @@
 
 
 .navStyle  {
-    width: 100vw;
+
     height: 50px;
     position:fixed;
     padding: 10px;
@@ -39,16 +39,15 @@
     top: 0;
     left: 0;
     right: 0;
-  
+    width: 100%;
 }
 
 
-
-
-
 .container {
-    max-width: 550px;
-    padding-left: 4rem;
+    width: 100%;
+    padding: 3rem;
+    background-color:#15192cef;
+    padding-top: 10rem;
 }
 
 
@@ -61,12 +60,8 @@
     text-align: left;
     line-height: 1.5;
     font-family:Georgia, 'Times New Roman', Times, serif;
-    font-size:xx-large;
+    font-size: 3.5rem;
     font-weight: 600;
-    padding-top: 10rem;
-    margin-left: 0%;
-    margin-right: 0%;
-    width: 100;
   }
 
  
@@ -100,6 +95,136 @@
     gap: 0.5rem;
   }
 
+  .security {
+    background-color: #15192c;
+    color: white;
+    display: grid;
+    grid-template-columns: 50% auto;
+    grid-column-gap: 2rem;
+    padding: 3rem;
+    width: 100%;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+  }
+
+  .security h2 {
+    font-size: 2rem;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight:800;
+  }
+
+  .security p {
+    font-size: large;
+  }
+
+  .future {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #15192c;
+    color: white;
+    text-align: left;
+    line-height: 1.5;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size:xx-large;
+    font-weight: 600;
+    padding: 3rem;
+    margin-left: 0%;
+    margin-right: 0%;
+    width: 100%;
+   
+  }
+
+  .future p {
+    font-size: large;
+  }
+
+  .how {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #15192cef;
+    color: white;
+    text-align: left;
+    line-height: 1.5;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size:xx-large;
+    font-weight: 600;
+    padding: 3rem;
+    width: 100%;
+  }
+
+  .how p {
+    font-size: 16px;
+    text-align: left;
+    font-weight: 300;
+
+  }
+
+  .mainpitch {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #15192cef;
+    color: white;
+    text-align: left;
+    line-height: 1.5;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size:xx-large;
+    font-weight: 600;
+    padding: 3rem;
+    margin-left: 0%;
+    margin-right: 0%;
+    width: 100%;
+  }
+
+  .mainwhat {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #15192cef;
+    color: white;
+    text-align: left;
+    line-height: 1.5;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size:xx-large;
+    font-weight: 600;
+    padding: 3rem;
+    margin-left: 0%;
+    margin-right: 0%;
+    width: 100%;
+  }
+  
+  .what {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(30%, auto));
+    grid-column-gap: 2rem;
+    width: var(--max-width);
+    justify-content: center;
+  }
+
+  .headingsm{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+  }
+
+  .headingsm h5 {
+    text-align: center;
+    font-size: 18px;
+    margin: 0;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    
+  }
+
+  .headingsm p {
+    text-align: center;
+    font-size: 16px;
+    font-weight:normal;
+    font-family: inherit;
+  }
   .flexc {
     display: flex;
     flex-direction: column;
@@ -110,11 +235,18 @@
   .flex {
     display: flex;
     flex-direction: row;
-    flex-wrap: nowrap;
+    flex-wrap: wrap;
     padding: 20px;
     justify-items: space-between;
     
     
+  }
+
+  .flex p {
+    font-size: 16px;
+    font-weight:normal;
+    font-family: inherit;
+    text-align: center;
   }
 
   .btn1 {
@@ -147,21 +279,38 @@
   }
 
   .company {
+    background-color: #15192c;
     color: aliceblue;
     justify-content: center;
-    padding-top: 4rem;
-    padding-bottom: 2rem;
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     text-align: center;
+    width: 100%;
+    padding: 3rem;
+   
+  }
+  .companydev {
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+    grid-column-gap: 2rem;
+    grid-template-columns: 200px 200px 200px 200px auto;
+    padding-top: 2rem;
+  }
+
+  .testimonial{
+    background-color: #15192c;
+    padding: 3rem;
+    width: 100%;
   }
 
   .card {
     display: grid;
     margin-top: 20px;
     padding: 1.5rem;
-    grid-column-gap: 0.5rem;
+    grid-column-gap: 1.5rem;
     grid-row-gap: 1rem;
-    grid-template-columns: 250px 150px;
+    grid-template-columns:repeat(2, minmax(50%, auto));
     border: 1px solid wheat;
     align-items: center;
     text-align: center;
@@ -177,8 +326,8 @@
     justify-items: center;
     grid-column-gap: 3rem;
     grid-row-gap: 5rem;
-    grid-template-columns: 150px 150px 150px 150px 100px 150px;
-  }
+    grid-template-columns: 230px 230px auto auto;
+  } 
 
   .gridpitch {
     display: grid;
@@ -197,11 +346,11 @@
   }
 
   .footer {
-    display: flex;
+    display: grid;
     flex-direction: column;
     width: 100%;
-    padding: 4rem;
-    background-color: #0e0f18;
+    padding: 3rem;
+    background-color:#15192cef;
     color: blanchedalmond;
     font-family: Georgia, 'Times New Roman', Times, serif;
   }

@@ -3,7 +3,7 @@ import styles from '@/styles/page.module.css'
 
 const Pitch = () => {
   return (
-    <>
+    <div className={styles.mainpitch}>
     <div className={styles.gridpitch} >
         <div>
             <h2>20X Faster</h2>
@@ -25,7 +25,7 @@ const Pitch = () => {
         <h2>50+ hrs</h2>
         <p></p>
     </div>
-    </>
+    </div>
   )
 }
 
