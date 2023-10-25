@@ -1,13 +1,13 @@
 import React from 'react'
 //import { useState } from "react";
-import styles from '@/styles/page.module.css'
-import { Button } from './Button';
-import Link from 'next/link';
+import Box from '@chakra-ui/next-js'
+import { Button, Link } from '@chakra-ui/react'
+//import Link from 'next/link';
 
 const Navbar = () => {
  
   return (
-    <div className={styles.navStyle} >
+    <Box  as="nav">
       <ul>
       <li >
           <Link href='/'>Home</Link>
@@ -16,19 +16,19 @@ const Navbar = () => {
         <Link href='/docs'>DOCS</Link>
       </li>
       <li>
-        <Link href='/enterprise'>Enterprise</Link>
+        <Link href='#enterprise'>Enterprise</Link>
       </li>
       <li>
-        <Link href='/developers'>Developers</Link>
+        <Link href='#developers'>Developers</Link>
       </li>
       <li>
-        <Link href='/roadmap'>Roadmap</Link>
+        <Link href='#roadmap'>Roadmap</Link>
       </li>
       <li>
-        <Link href='/pricing'>Pricing</Link>
+        <Link href='#pricing'>Pricing</Link>
       </li>
       <li>
-        <Link href='/company'>Company</Link>
+        <Link href='#company'>Company</Link>
       </li>
       <li>
         <Link href='/login'>Login</Link>
@@ -37,7 +37,7 @@ const Navbar = () => {
       </ul>
       
      
-    </div>
+    </Box>
       )
 }
 

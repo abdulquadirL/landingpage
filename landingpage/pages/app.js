@@ -1,15 +1,13 @@
+//
+import { ChakraProvider,  CSSReset } from '@chakra-ui/react'
 
-//import Image from 'next/image'
-import React from 'react'
-import Navbar from '@/components/Navbar'
-
-
-
-export default function App({Component, pageProps}) {
+function App({ Component, pageProps }) {
   return (
-    <React.Fragment>
-      <Component{...pageProps} />
-      <Navbar/>
-    </React.Fragment>
+    <ChakraProvider>
+      <CSSReset/>
+      <Component {...pageProps} />
+    </ChakraProvider>
   )
 }
+
+export default App;

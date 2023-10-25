@@ -1,38 +1,37 @@
-import Head from 'next/head'
-//import '@/styles/globals.css'
-import Header from '@/components/Header'
-import styles from '@/styles/page.module.css'
+
+
+import { Box } from '@chakra-ui/react'
 import Company from '@/components/Company'
-import Testimonial from '@/components/Testimonials'
-import Pitch from '@/components/Pitch'
-import How from '@/components/How'
-import { What } from '@/components/What'
-import Future from '@/components/Future'
 import Features from '@/components/Features'
 import Footer from '@/components/Footer'
+import Future from '@/components/Future'
+import Header from '@/components/Header'
+import How from '@/components/How'
+import Pitch from '@/components/Pitch'
 import { Security } from '@/components/Security'
+import Testimonial from '@/components/Testimonials'
+import { What } from '@/components/What'
+import Navbar from '@/components/Navbar'
 
 
-export default function Home() {
-  return(
-    
-    <div className={styles.home}>
-      <Head>
-        <title>Amplication</title>
-        <meta name='keywords' content='web development, programming'/>
-      </Head>
-      <Header/>
-      <Company/>
-      <How/>
-      <Testimonial/>
-      <Pitch/>
-      <Security/>
-      <What/>
-      <Features/>
-      <Future/>
-      <Footer/>
+
+
+export default function Home( ) {
+  return (
+    <Box>
+       
+       <Header/>
+        <Company/>
+        <How/>
+        <Testimonial/>
+        <Pitch/>
+        <Security/>
+        <What/>
+        <Features/>
+        <Future/>
+        <Footer/> 
+    </Box>
+       
       
-    </div>
-    
   )
 }

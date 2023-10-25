@@ -1,17 +1,16 @@
 import React from 'react'
-import { Button } from './Button'
-import styles from '@/styles/page.module.css'
+
+import { Box, Text, Button } from '@chakra-ui/react'
 
 const Footer = () => {
   return (
-    <div className={styles.footer}>
-      <h3>Build faster, with no limits</h3>
-      <div className={styles.flex}>
-        <Button/>
-        <button className={styles.btn2}>Contact us</button>
-      </div>
+    <Box >
+      <Text>Build faster, with no limits</Text>
+      <Box >
+        <Button >Contact us</Button>
+      </Box>
       follow us on 
-    </div>
+    </Box>
   )
 }
 

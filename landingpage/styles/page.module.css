@@ -119,15 +119,15 @@
   }
 
   .future {
-    display: flex;
-    flex-direction: column;
+    display: grid;
+    grid-template-columns: 25% 25% 25% auto;
     align-items: center;
     background-color: #15192c;
     color: white;
     text-align: left;
     line-height: 1.5;
     font-family:Georgia, 'Times New Roman', Times, serif;
-    font-size:xx-large;
+    font-size:x-large;
     font-weight: 600;
     padding: 3rem;
     margin-left: 0%;
@@ -348,6 +348,8 @@
   .footer {
     display: grid;
     flex-direction: column;
+    justify-content: center;
+    align-content: center;
     width: 100%;
     padding: 3rem;
     background-color:#15192cef;

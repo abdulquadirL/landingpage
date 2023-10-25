@@ -1,31 +1,31 @@
 import React from 'react'
-import styles from '@/styles/page.module.css'
+import { SimpleGrid, Box, Text } from '@chakra-ui/react'
 
 const Pitch = () => {
   return (
-    <div className={styles.mainpitch}>
-    <div className={styles.gridpitch} >
-        <div>
-            <h2>20X Faster</h2>
+    <Box >
+    <SimpleGrid  spacing="10px" templateColumns='repeat(auto-fill, minmax(300px, 2fr))' >
+        <Box>
+            <Text>20X Faster</Text>
             <p></p>
-        </div>
-        <div>
-            <h2>2 Months</h2>
+        </Box>
+        <Box>
+            <Text>2 Months</Text>
             <p></p>
-        </div>
-        <div>
-            <h2>100+ hrs</h2>
+        </Box>
+        <Box>
+            <Text>100+ hrs</Text>
             <p></p>
-        </div>
-        <div>
-            <h2>30%</h2>
-        </div>
-    </div>
-    <div className={styles.gridpitch}>
-        <h2>50+ hrs</h2>
+        </Box>
+        <Box>
+            <Text>30%</Text>
+        </Box>
+    </SimpleGrid>
+    <Box>
+        <Text>50+ hrs</Text>
         <p></p>
-    </div>
-    </div>
+    </Box>
+    </Box>
   )
 }
 

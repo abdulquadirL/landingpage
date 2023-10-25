@@ -1,20 +1,20 @@
 import React from 'react'
-import styles from '@/styles/page.module.css'
+import { Box, Text, Image } from '@chakra-ui/react'
 
 const Company = () => {
   return (
     
-    <div className={styles.company}>
-        <h2 >Empowering Developers from leading companies</h2>
-        <div className={styles.companydev}>
-            <div><img src='https://amplication.com/_next/static/media/logo-2.a9ec4556.svg' alt='inl'/></div>
-            <div><img src='https://amplication.com/_next/static/media/logo-1.4ab30fc7.svg' alt='Yahoo'/></div>
-            <div><img src='https://amplication.com/_next/static/media/logo-3.5437261c.svg' alt='Huawei'/></div>
-            <div><img src='https://amplication.com/_next/static/media/logo-4.52ae660a.svg' alt='Barclays'/></div>
-            <div><img src='https://amplication.com/_next/static/media/logo-5.aeb7e633.svg' alt='Nike'/></div>
-            <div><img src="https://amplication.com/_next/static/media/logo-6.bd5a0967.svg" alt=''/></div>
-        </div>
-    </div>
+    <Box >
+        <Text >Empowering Developers from leading companies</Text>
+        <Box >
+            <Box><Image src='https://amplication.com/_next/static/media/logo-2.a9ec4556.svg' alt='inl'/></Box>
+            <Box><Image src='https://amplication.com/_next/static/media/logo-1.4ab30fc7.svg' alt='Yahoo'/></Box>
+            <Box><Image src='https://amplication.com/_next/static/media/logo-3.5437261c.svg' alt='Huawei'/></Box>
+            <Box><Image src='https://amplication.com/_next/static/media/logo-4.52ae660a.svg' alt='Barclays'/></Box>
+            <Box><Image src='https://amplication.com/_next/static/media/logo-5.aeb7e633.svg' alt='Nike'/></Box>
+            <Box><Image src="https://amplication.com/_next/static/media/logo-6.bd5a0967.svg" alt=''/></Box>
+        </Box>
+    </Box>
     
     
   )
