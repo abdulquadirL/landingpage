@@ -12,6 +12,7 @@ import { Security } from '@/components/Security'
 import Testimonial from '@/components/Testimonials'
 import { What } from '@/components/What'
 import Navbar from '@/components/Navbar'
+//import Navbar from '@/components/Navbar'
 
 
 
@@ -19,8 +20,8 @@ import Navbar from '@/components/Navbar'
 export default function Home( ) {
   return (
     <Box>
-       
-       <Header/>
+        <Navbar/>
+        <Header/>
         <Company/>
         <How/>
         <Testimonial/>

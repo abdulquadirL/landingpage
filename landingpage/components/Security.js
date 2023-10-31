@@ -4,7 +4,7 @@ import { Text, Box, Image } from '@chakra-ui/react'
 
 export const Security = () => {
   return (
-    <Box >
+    <Box bg="teal"p="4rem" >
         <Box>
             <Text size="18px">Secured and compliant, because your data matters</Text>
             <Text>Amplication is SOC-2 certified. We meet highest standard for data security, accesibility, processing, integrity and privacy.</Text>

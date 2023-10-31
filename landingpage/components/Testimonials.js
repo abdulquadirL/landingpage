@@ -6,9 +6,9 @@ import { Box, Button, Text } from '@chakra-ui/react'
 
 const Testimonial = () => {
   return (
-    <Box  bg="teal.700">
+    <Box  bg="teal.600" p="4rem">
         <Box >
-            <h2 >What Users are saying about Amplication</h2>
+            <Text fontSize='2rem' fontFamily="roboto">What Users are saying about Amplication</Text>
         
             <Box >
         </Box>

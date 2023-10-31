@@ -7,11 +7,11 @@ import { Box, Image, Text } from '@chakra-ui/react'
 
 export default function Future () {
   return (
-    <Box>
+    <Box p="4rem" bg="teal">
       <Futur/>
     <Box >
     <Box >
-        <Text>Backed by visionary global investors</Text>
+        <Text fontSize='2rem' fontFamily="roboto">Backed by visionary global investors</Text>
     </Box>
       <Box><Image width="180px" src='https://amplication.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Flogo-norwest.54486ce1.png&w=384&q=75'/></Box>
       <Box><Image width="180px" src='https://amplication.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Flogo-vertex.cec2bcf9.png&w=256&q=75'/></Box>

@@ -4,7 +4,7 @@ import { Box, Text, Button } from '@chakra-ui/react'
 
 const Footer = () => {
   return (
-    <Box >
+    <Box bg="gray" p="4rem">
       <Text>Build faster, with no limits</Text>
       <Box >
         <Button >Contact us</Button>
