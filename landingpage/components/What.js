@@ -91,18 +91,18 @@ export const What = () => {
                 <Heading color="white" fontSize="1.2rem" >Ready to deploy app</Heading>
                 </CardHeader>
                 
-                <Text color="white">Generate Docker container or use plugins to connect to CI/CD tools & cloud providers</Text>
+                <Text >Generate Docker container or use plugins to connect to CI/CD tools & cloud providers</Text>
             </Card>   
             <Card >
                 <Image src='https://amplication.com/_next/static/media/feature-icon-4.6e77bda4.svg' alt=''/>
                 <Heading color="white" fontSize="1.2rem">Admin UI</Heading>
-                <Text color="white">Automatically generated React Admin UI to create & edit your data models</Text>
+                <Text >Automatically generated React Admin UI to create & edit your data models</Text>
             
             </Card>  
             <Card >
                 <Image src='https://amplication.com/_next/static/media/feature-icon-4.6e77bda4.svg' alt=''/>
                 <Heading color="white" fontFamily="roboto"  fontSize="1.2rem">Amplication console & CLI</Heading >
-                <Text color="white" fontFamily="roboto"  fontSize="1rem">Fast test generation using Amplication console or Command Line Interface (CLI)</Text>
+                <Text  fontFamily="roboto"  fontSize="1rem">Fast test generation using Amplication console or Command Line Interface (CLI)</Text>
             </Card>   
            
         </SimpleGrid>
