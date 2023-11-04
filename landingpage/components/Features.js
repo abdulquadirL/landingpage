@@ -5,7 +5,7 @@ const Features = () => {
   return (
     <Box >
     <Box >
-         <Text fontSize='2rem' fontFamily="roboto">Let your Team write critical business logic instead of redundant infrastructure code </Text>
+         <Text fontSize='2rem' fontFamily="lobster">Let your Team write critical business logic instead of redundant infrastructure code </Text>
        
     </Box>
     </Box>
